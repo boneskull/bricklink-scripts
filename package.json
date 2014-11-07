@@ -1,0 +1,23 @@
+{
+  "name": "bricklink-scripts",
+  "version": "0.1.0",
+  "description": "User scripts to help you use BrickLink",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boneskull/bricklink-scripts.git"
+  },
+  "author": "Christopher Hiller <chiller@badwing.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boneskull/bricklink-scripts/issues"
+  },
+  "homepage": "https://github.com/boneskull/bricklink-scripts",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.0"
+  }
+}
