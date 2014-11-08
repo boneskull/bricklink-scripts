@@ -1,0 +1,7 @@
+options:
+  jshintrc: true
+main:
+  - lib/**/*.js
+  - '!lib/**/support/**/*.js'
+  - Gruntfile.js
+  - tasks/*.js

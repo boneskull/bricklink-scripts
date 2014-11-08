@@ -1,0 +1,5 @@
+src:
+  - lib/**/*.js
+  - Gruntfile.js
+options:
+  config: .jscsrc

@@ -1,0 +1,7 @@
+build:
+  - bower-install-simple
+  - concat
+  - write
+test:
+  - jshint
+  - jscs

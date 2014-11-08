@@ -1,12 +1,8 @@
 {
-  "name": "bricklink-scripts-auto-load-images",
+  "name": "BrickLink - Wanted List: Automatically Load Images",
   "main": "auto-load-images.js",
-  "version": "0.1.0",
-  "authors": [
-    "Christopher Hiller <chiller@badwing.com>"
-  ],
+  "version": "0.1.1",
   "description": "Automatically load images when adding items to wanted list",
-  "license": "MIT",
   "private": true,
   "dependencies": {
     "ajaxq": "git://github.com/Foliotek/ajaxq.git"

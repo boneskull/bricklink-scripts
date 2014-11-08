@@ -8,9 +8,10 @@
   "nonew": true,
   "undef": true,
   "strict": true,
-  "node": true,
+  "browser": true,
   "indent": 2,
   "expr": true,
   "newcap": false,
-  "quotmark": "single"
+  "quotmark": "single",
+  "jquery": true
 }

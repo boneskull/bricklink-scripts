@@ -58,5 +58,5 @@
   "requireDotNotation": true,
   "disallowYodaConditions": true,
   "disallowNewlineBeforeBlockStatements": true,
-  "excludeFiles": ["**/bower_components/**", "node_modules/**"]
+  "excludeFiles": ["**/support/**", "node_modules/**", "dist/**"]
 }
