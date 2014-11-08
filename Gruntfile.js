@@ -18,7 +18,7 @@ module.exports = function (grunt) {
       autoLoadImages: {
         pkg: require('./lib/wanted/auto-load-images/bower.json')
       },
-      namespace: 'badwing',
+      namespace: 'http://badwing.com/',
       pkg: require('./package.json')
     }
   });
