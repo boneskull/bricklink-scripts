@@ -2,7 +2,7 @@
 // @name         BrickLink - Wanted List: Automatically Load Images
 // @namespace    http://badwing.com/
 // @homepage     https://github.com/boneskull/bricklink-scripts
-// @version      0.1.1
+// @version      0.1.2
 // @description  Automatically load images when adding items to wanted list
 // @author       Christopher Hiller <chiller@badwing.com>
 // @downloadURL  https://raw.githubusercontent.com/boneskull/bricklink-scripts/master/dist/auto-load-images.js
