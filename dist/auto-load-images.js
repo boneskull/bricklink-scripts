@@ -7,7 +7,7 @@
 // @author       Christopher Hiller <chiller@badwing.com>
 // @downloadURL  https://raw.githubusercontent.com/boneskull/bricklink-scripts/master/dist/auto-load-images.js
 // @updateURL    https://raw.githubusercontent.com/boneskull/bricklink-scripts/master/dist/auto-load-images.meta.js
-// @include      http://www.bricklink.com/wantedAddDetail.asp?act=a*
+// @include      http://www.bricklink.com/wantedAddDetail.asp?*
 // @require      //code.jquery.com/jquery-1.11.1.min.js
 // @require      //cdnjs.cloudflare.com/ajax/libs/spin.js/2.0.1/jquery.spin.min.js
 // ==/UserScript==
@@ -185,7 +185,7 @@
    * @param {string} id Part ID
    */
   getImage = function getImage(id) {
-    var item_type = getUrlParam(window.location, 'a'),
+    var item_type = getUrlParam(window.location, 'a').toUpperCase(),
       src = '/getPic.asp?itemType=' + item_type + '&itemNo=' + id;
 
     $.getq(src).done(function (src) {
