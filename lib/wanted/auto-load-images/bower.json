@@ -5,6 +5,5 @@
   "description": "Automatically load images when adding items to wanted list",
   "private": true,
   "dependencies": {
-    "ajaxq": "git://github.com/Foliotek/ajaxq.git"
   }
 }

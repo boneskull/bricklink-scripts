@@ -1,7 +1,11 @@
 build:
-  - bower-install-simple
-  - concat
-  - write
+#  - bower-install-simple
+#  - concat
+  - clean
+  - copy
+  - touch
+  - usebanner
+#  - write
 test:
   - jshint
   - jscs

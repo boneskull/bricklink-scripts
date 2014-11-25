@@ -13,5 +13,6 @@
   "expr": true,
   "newcap": false,
   "quotmark": "single",
-  "jquery": true
+  "jquery": true,
+  "predef": ["GM_getResourceText"]
 }
